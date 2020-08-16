@@ -1,0 +1,99 @@
+html{
+
+    background: rgb(61,21,95);
+    background: linear-gradient(0deg, rgba(61,21,95,1) 1%, rgba(223,103,140,1) 95%);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+
+}
+
+.meniu {
+    font-family: 'Segoe UI',Arial,sans-serif;
+    background-color: black;
+    height: 100%;
+    width: 200px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 55px;
+    width: 100%; 
+    margin: 0 auto;
+    border: 20px;
+
+  }
+  
+  .meniu a {
+    float: left;
+    color: #DF678C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+ 
+  .meniu a:hover {
+    background-color: #DF678C;
+    color: #000000;
+  }
+  
+  .meniu a.active {
+    background-color: #DF678C;
+    color: #000000;
+  }
+
+  .content{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.25) 100%);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 60px;
+    padding: 10px;
+    margin-left:10% ;
+    margin-right:10% ;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+
+  .divTable{
+    display: table;
+    width: 80%;
+    margin-left:10% ;
+    margin-right:10% ;
+    margin-top: 20px;
+  }
+  
+  .divTableRow {
+    display: table-row;
+  }
+
+  .divTableCell{
+    display: table-cell;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.25) 100%);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1px;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+  }
+
+input[type=submit]{
+  background-color: rgb(61,21,95);
+  border: 1px solid #DF678C;
+  color: #DF678C;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+img{
+  border: 1px solid wheat;
+  border-radius: 10px;
+}
